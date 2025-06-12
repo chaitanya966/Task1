@@ -1,0 +1,50 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            background-image: linear-gradient(90deg,red , blue, yellow);
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-weight: bold;
+            font-style: normal;
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh; /* vh stands for viewport height */
+          }
+        
+        input {
+            width: 400px;
+            height: 30px;
+            font-size: 20px;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        button {
+            width: 100px;
+            height: 30px;
+            font-size: 20px;
+            font-weight: 400;
+            font-style: italic;
+            background-color: rgb(230, 230, 230);
+            color: rgb(0, 0, 0);
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 50px;
+        }
+
+        button:hover {
+            background-color: rgb(193, 41, 41);
+            color: rgb(230, 230, 230);
+            border: 1px solid rgb(230, 230, 230);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 50px;
+        }
